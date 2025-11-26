@@ -11,8 +11,7 @@ public class ArrayTest3 {
         for (int i = 0; i < arr.length; i++) {
             System.out.println(arr[i]);
         }
-        //插入操作（3种情况）
-        //
+
 
 
     }

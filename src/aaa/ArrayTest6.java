@@ -21,7 +21,7 @@ public class ArrayTest6  {
             throw new IndexOutOfBoundsException("下标超出了数组的范围");
 
         }
-        arr[index] = arr[arr.length-1];
+        arr[index] = arr[arr.length-1];  //将数组中最后一个元素（位于 arr.length - 1）的值，赋值给要删除的位置（arr[index]）。
         int[] newArr = new int[arr.length-1];
         for (int i=0;i<newArr.length;i++) {
             newArr[i] = arr[i];

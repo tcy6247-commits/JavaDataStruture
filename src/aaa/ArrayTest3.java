@@ -7,7 +7,7 @@ public class ArrayTest3 {
        // System.out.println(arr[2]);
 
         //元素的更新
-        arr[2] = 9; //将数值9赋值到arr[2]中，将数值8替换为9.
+        arr[2] = 9; //将数值9赋值到arr[2]中，将数值4替换为9.
         for (int i = 0; i < arr.length; i++) {
             System.out.println(arr[i]);
         }

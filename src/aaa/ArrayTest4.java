@@ -9,7 +9,7 @@ public class ArrayTest4 {
         arr[3] = 1;
         arr[4] = 8;
         arr[5] = 3;
-        arr = insert(arr,6,2);
+        arr = insert(arr,6,2); //在arr[2]的位置插入元素为6的数
         for (int i=0;i<arr.length;i++) {
             System.out.println(arr[i]);
         }
